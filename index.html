@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashbord-two</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+     <!-- this is dashbord-section start  -->
+     <div class="container">
+     <div class="header-section">
+     
+       <div class="header-img">
+        <img src="images/icon/Screenshot_5.png" alt="">
+       </div>
+       <div class="header-icon">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+       <div class="div">
+        <p>Cash Loan</p>
+       </div>
+       <div class="add-now">
+        <p>+ Add New</p>
+       </div>
+       <div class="header-img2">
+        <img src="images/icon/masud.jpg" alt="">
+        <i class="fa-solid fa-caret-up"></i>
+       </div>
+        </div>
+     </div>
+     <!-- <div class="mean-menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+     </div> -->
+<!-- this is heaer section end -->
+
+<div class="navbar-section">
+  <div class="container">
+      <div class="navber name">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-user-group"></i>
+          
+            </div>
+            <div class="icon-text">
+              <p>Member</p>
+            </div>
+            <div class="icon2">
+              <i  class="fa-solid fa-chevron-down"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+      <!--  -->
+      <div class="navber-test">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-ghost"></i>
+            </div>
+            <div class="icon-text">
+              <p>Cash Loan</p>
+            </div>
+            <!-- <div class="icon2">
+              <i class="fa-solid fa-angle-up"></i>
+            </div> -->
+          </a></li>
+        </ul>
+    
+          <ul>
+            <li><a href="#">
+              <div class="icon1">
+                <i class="fa-solid fa-ghost"></i>
+              </div>
+              <div class="icon-text">
+                <p>product Loan</p>
+              </div>
+              <!-- <div class="icon2">
+                <i  class="fa-solid fa-chevron-down"></i>
+              </div> -->
+            </a></li>
+          </ul>
+        </div>
+      
+   
+      <div class="navber">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-display"></i>
+            </div>
+            <div class="icon-text">
+              <p>Deposit</p>
+            </div>
+            <div class="icon2">
+              <i  class="fa-solid fa-chevron-down"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="navber-test-two">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-ghost"></i>
+            </div>
+            <div class="icon-text">
+              <p>Cash Loan</p>
+            </div>
+            <!-- <div class="icon2">
+              <i class="fa-solid fa-angle-up"></i>
+            </div> -->
+          </a></li>
+        </ul>
+    
+          <ul>
+            <li><a href="#">
+              <div class="icon1">
+                <i class="fa-solid fa-ghost"></i>
+              </div>
+              <div class="icon-text">
+                <p>product Loan</p>
+              </div>
+              <!-- <div class="icon2">
+                <i  class="fa-solid fa-chevron-down"></i>
+              </div> -->
+            </a></li>
+          </ul>
+        </div>
+
+      <div class="navber">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="icon-text">
+              <p>setting</p>
+            </div>
+            <div class="icon2">
+              <i  class="fa-solid fa-chevron-down"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+      <div class="navber navber2">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-display"></i>
+            </div>
+            <div class="icon-text">
+              <p>Officer Mean</p>
+            </div>
+            <div class="icon2">
+              <i  class="fa-solid fa-chevron-down"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+      <div class="navber">
+        <ul>
+          <li><a href="#">
+            <div class="icon1">
+              <i class="fa-solid fa-building-un"></i>
+            </div>
+            <div class="icon-text">
+              <p>Inbentory</p>
+            </div>
+            <div class="icon2">
+              <i  class="fa-solid fa-chevron-down"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+<footer>
+  <p>Copyright &copy; 2023 <span class="highlight"> Replex Soft Ltd</span> All Right reserved</p>
+</footer>
+
+<script>
+const icon =document.querySelector(".navber-test");
+const item =document.querySelector(".fa-chevron-down");
+item.addEventListener("click",()=>{
+  console.log("click");
+  icon.classList.toggle("active")
+})
+
+// const icon =document.querySelector("mean-menu");
+// const item =document.querySelector(".fa-caret-up");
+
+const icon3  =document.querySelector(".navber-test-two");
+const item3 =document.querySelector(".fa-chevron-down");
+item3.addEventListener("click",()=>{
+  console.log("click");
+  icon3.classList.toggle("active")
+})
+
+</script>
+
+
+</body>
+</html>

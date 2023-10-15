@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
+    padding: 0 20px;
+}
+:root{
+    --primary: #FFFFFF;
+    --success:#01A4CD;
+    --danger:#992CC0;
+    --secendary:#253DAB;
+}
+/* style start css */
+.header-section{
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    gap: 27px;
+    margin-top: 10px;
+    align-items: center;
+}
+.header-img img {
+    width: 90px;
+    height: 45px;
+  }
+  .header-icon {
+    margin-left: 120px;
+    color: var(--danger);
+    font-size: 20px;
+  }
+.add-now{
+    color: var(--danger);
+    border: 1px solid var(--danger);
+    padding: 5px;
+}
+.header-img2{
+    margin-inline-start: auto;
+}
+.header-img2 img{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+}
+.navbar-section{
+    width: 20%;
+    background-color: var(--success);
+}
+.navber ul {
+    list-style: none;
+}
+.navber ul li a{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    padding: 15px 15px;
+    color: var(--primary);
+    align-items: center;
+}
+.navber-test{
+    display: none;
+    width: 250px;
+    margin-left: 30px;
+}
+/* .mean-menu{
+    display: none;
+} */
+.navber-test i{
+    color: var(--danger);
+}
+.active{
+    display: block;
+}
+/* .actives{
+    display: block;
+} */
+.navber-test ul{
+    list-style: none;
+}
+.navber-test ul li a{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    padding: 15px 15px;
+    color: var(--danger);
+    align-items: center;
+}
+.icon1{
+    color: var(--primary);
+}
+.icon2 {
+    margin-inline-start: auto;
+    color: var(--primary);
+  }
+  /* this is footer section  */
+  footer{
+    width: 100%;
+    background-color: #E9F1F3;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
+    height: 25px;
+    border: 1px solid rgb(226, 223, 223);
+    height: 40px;
+    
+  }
+  .highlight{
+    color: var(--danger);
+  }
+  footer p{
+    margin-top: 10px;
+  }
+  .navber-test-two ul li{
+    list-style: none;
+  }
+  .navber-test-two ul li a{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    padding: 15px 15px;
+    color: var(--danger);
+    align-items: center;
+}
+.navber-test-two{
+    display: none;
+}
+
+
+
+
+  
